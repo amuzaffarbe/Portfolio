@@ -1,0 +1,454 @@
+body {
+    overflow: hidden;
+    background: #fff;
+}
+
+#spiral {
+    cursor: none !important;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.div div {
+    background: rgba(6, 238, 255, 0.041);
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(10%, -30);
+      }
+}
+
+.yellow {
+    position: absolute;
+    top: 15px;
+    padding: 10px;
+    border: 8px solid yellow;
+    width: max-content;
+    font-size: 25px;
+}
+
+.green {
+    position: absolute;
+    top: 15px;
+    padding: 10px;
+    border: 8px solid green;
+    width: max-content;
+    font-size: 25px;
+}
+
+.pink {
+    position: absolute;
+    top: 15px;
+    padding: 10px;
+    border: 8px solid pink;
+    width: max-content;
+    font-size: 25px;
+}
+
+.red {
+    position: absolute;
+    top: 15px;
+    padding: 10px;
+    border: 8px solid red;
+    width: max-content;
+    font-size: 25px;
+}
+
+.blue {
+    position: absolute;
+    top: 15px;
+    padding: 10px;
+    border: 8px solid blue;
+    width: max-content;
+    font-size: 25px;
+}
+
+.lawngreen {
+    position: absolute;
+    top: 15px;
+    padding: 10px;
+    border: 8px solid lawngreen;
+    width: max-content;
+    font-size: 25px;
+}
+
+.skyblue {
+    position: absolute;
+    top: 15px;
+    padding: 10px;
+    border: 8px solid skyblue;
+    width: max-content;
+    font-size: 25px;
+}
+
+.aqua {
+    position: absolute;
+    top: 15px;
+    padding: 10px;
+    border: 8px solid aqua;
+    width: max-content;
+    font-size: 25px;
+}
+
+.cornflowerblue {
+    position: absolute;
+    top: 15px;
+    padding: 10px;
+    border: 8px solid cornflowerblue;
+    width: max-content;
+    font-size: 25px;
+}
+
+.hotpink {
+    position: absolute;
+    top: 15px;
+    padding: 10px;
+    border: 8px solid hotpink;
+    width: max-content;
+    font-size: 25px;
+}
+
+.lightcoral {
+    position: absolute;
+    top: 15px;
+    padding: 10px;
+    border: 8px solid lightcoral; 
+    width: max-content;
+    font-size: 25px;
+}
+
+.purple {
+    position: absolute;
+    padding: 10px;
+    border: 8px solid purple;
+    width: max-content;
+    font-size: 25px;
+}
+
+.silver {
+    position: absolute;
+    padding: 10px;
+    border: 8px solid silver;
+    width: max-content;
+    font-size: 25px;
+}
+
+.lightgreen {
+    position: absolute;
+    padding: 10px;
+    border: 8px solid lightgreen;
+    width: max-content;
+    font-size: 25px;
+}
+
+.gold {
+    position: absolute;
+    padding: 10px;
+    border: 8px solid gold;
+    width: max-content;
+    font-size: 25px;
+}
+
+.snow {
+    position: absolute;
+    padding: 10px;
+    border: 8px solid rgb(114, 100, 100);
+    width: max-content;
+    font-size: 25px;
+}
+
+.orangered {
+    position: absolute;
+    padding: 10px;
+    border: 8px solid orangered;
+    width: max-content;
+    font-size: 25px;
+}
+
+
+.f-1 {
+    top: 200px;
+}
+
+.f-2 {
+    top: 100px;
+}
+
+.f-3 {
+    top: 500px;
+    left: 500px;
+}
+
+.f-4 {
+    top: 300px;
+    left: 500px;
+}
+
+.f-5 {
+    top: 10px;
+    left: 100px;
+}
+
+.f-6 {
+    top: 0px;
+    left: 77%;
+}
+
+.f-7 {
+    top: 500px;
+    left: 80%;
+}
+
+.f-8 {
+    top: 550px;
+    left: 0px;
+}
+
+.f-9 {
+    top: 600px;
+    left: 300px;
+}
+
+.f-10 {
+    top: 100px;
+    left: 300px;
+}
+
+.f-11 {
+    top: 400px;
+    left: 700px;
+}
+
+.f-12 {
+    top: 50px;
+    left: 800px;
+}
+
+.f-13 {
+    top: 200px;
+    left: 400px;
+}
+
+.f-14 {
+    top: 500px;
+    left: 800px;
+}
+
+.f-15 {
+    top: 50px;
+    left: 300px;
+}
+
+.f-16 {
+    top: 422px;
+    left: 0;
+}
+
+.f-17 {
+    top: 150px;
+    right: 30px;
+}
+
+.f-18 {
+    top: 250px;
+    right: 30px;
+}
+
+.f-19 {
+    top: 150px;
+    right: 300px;
+}
+
+.f-20 {
+    top: 250px;
+    right: 400px;
+}
+
+.f-21 {
+    top: 150px;
+    right: 700px;
+}
+
+.f-22 {
+    top: 0px;
+    right: 700px;
+}
+
+.f-23 {
+    top: 90px;
+    right: 750px;
+}
+
+.f-24 {
+    top: 550px;
+    right: 700px;
+}
+
+.f-25 {
+    top: 750px;
+    right: 500px;
+}
+
+.f-26 {
+    top: 550px;
+    right: 400px;
+}
+
+.f-28 {
+    top: 150px;
+    right: 600px;
+}
+
+.f-27 {
+    top: 50px;
+    right: 300px;
+}
+
+.f-29 {
+    top: 200px;
+    right: 500px;
+}
+
+.f-30 {
+    right: 20px;
+    bottom: 100px;
+}
+
+.f-31 {
+    right: 20px;
+    bottom: 220px;
+}
+
+.f-32 {
+    right: 220px;
+    bottom: 100px;
+}
+
+.f-33 {
+    right: 380px;
+}
+
+.f-34 {
+    top: 320px;
+    left: 15px;
+}
+
+.f-35 {
+    top: 320px;
+    right: 450px;
+}
+
+.f-36 {
+    top: 300px;
+    left: 250px;
+}
+
+.f-37 {
+    top: 300px;
+    left: 650px;
+}
+
+.f-39 {
+    top: 500px;
+    left: 250px;
+}
+
+.f-40 {
+    top: 600px;
+    left: 40px;
+}
+
+.f-41 {
+    top: 600px;
+    left: 600px;
+}
+
+.f-42 {
+    top: 400px;
+    left: 1100px;
+}
+
+.f-43 {
+    top: 200px;
+    left: 560px;
+}
+
+.f-44 {
+    top: 150px;
+    left: 160px;
+}
+
+.f-45 {
+    top: 230px;
+    left: 260px;
+}
+
+.f-46 {
+    top: 650px;
+    left: 760px;
+}
+
+.f-47 {
+    top: 650px;
+    left: 1060px;
+}
+
+.f-48 {
+    top: 620px;
+    left: 1260px;
+}
+
+.f-49 {
+    top: 0px;
+    left: 400px;
+}
+
+.f-50 {
+    top: 400px;
+    left: 270px;
+}
+
+.f-51 {
+    top: 430px;
+    left: 570px;
+}
+
+.f-52 {
+    top: 300px;
+    left: 1020px;
+}
+
+.f-53 {
+    top: 320px;
+    left: 1320px;
+}
+
+.f-54 {
+    top: 440px;
+    left: 920px;
+}
+
+.f-55 {
+    top: 500px;
+    left: 20px;
+}
+
+.f-56 {
+    top: 650px;
+    left: 80px;
+}
+
+.f-57 {
+    top: 140px;
+    left: 439px;
+}

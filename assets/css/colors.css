@@ -1,0 +1,237 @@
+/* White box ------------------------------------ */
+
+.white {
+    background: white;
+}
+
+.white * :not(.logo, .magnetic, .logo-s, .logo-foot, .tictactoe, .todoist, .icecream) {
+    background: white !important;
+    color: black !important;
+}
+
+.workflow-right-content .center, .workflow-right-content .center img, .workflow-right-content .center p {
+    background: none !important;
+}
+
+.white .skills-left img, .white .skills-right img  {
+    background: #000 !important;
+    padding: 10px !important;
+}
+
+.white .code, .white .story, .white .love {
+    background: #000 !important;
+    color: white !important;
+}
+
+.white .supposed {
+    background: none !important;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.white .abt-text {
+    border: 1px solid #ccc !important;
+}
+
+.white .text-1,
+.text-2 {
+    background: rgba(0, 0, 0, 0.233) !important;
+}
+
+.white .img-fluid {
+    border: 1px solid black;
+    -webkit-filter: none !important;
+    filter: none !important;
+}
+
+.white .gmail {
+    color: black !important;
+}
+
+.white .colors {
+    border-right: 3px solid red !important;
+}
+
+.white .magnetic {
+    background: #000;
+}
+
+.white .magnetic span::before,
+.white .magnetic span::after {
+    background: white !important;
+}
+
+.white .burger-menu {
+    background: none !important;
+}
+
+
+.white .download-cv, .white .download-cv .arrow {
+    background: #000 !important;
+    color: white !important;
+}
+
+.white .download-cv:hover {
+    background: white !important;
+    color: black !important;
+    border: 1px solid black;
+}
+
+.white .download-cv:hover >.arrow {
+    background: white !important;
+    color: black !important;
+}
+
+.white .download-cv .arrow {
+    padding: -50px !important;
+}
+
+
+/* Red box ------------------------------------ */
+
+.red {
+    background: red;
+}
+
+.red * :not(.logo, .magnetic, .logo-s, .logo-foot, .supposed, .inner, .love, .code, .story, .tictactoe, .todoist, .icecream) {
+    background: red !important;
+    color: black;
+}
+
+.red .list-social ul, .red .socials{
+    background: transparent !important;
+}
+
+.red .text-1,
+.text-2 {
+    background: rgba(0, 0, 0, 0.233) !important;
+}
+
+.red .img-fluid {
+    border: 1px solid black;
+    -webkit-filter: none !important;
+    filter: none !important;
+}
+
+.red .gmail {
+    color: black !important;
+}
+
+.red .activez a {
+    background: none !important;
+}
+
+.red .magnetic span::before,
+.red .magnetic span::after {
+    background: black !important;
+}
+
+.red .burger-menu {
+    background: none !important;
+}
+
+.workflow-right-content .center, .workflow-right-content .center img, .workflow-right-content .center p {
+    background: none !important;
+}
+
+
+/* Colors ---------------------------------- */
+
+.colors {
+    position: fixed;
+    top: 15%;
+    left: -2%;
+    padding: 8px 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    justify-content: space-between;
+    border-right: 3px solid white;
+    padding-right: 10px;
+}
+
+.colors button:focus {
+    transition: all 0.5s ease-in;
+    transform: translate(10px);
+}
+
+.colors button {
+    border-radius: 7px;
+    padding: 5px 7px;
+    outline: none;
+    border: none;
+    width: 30px;
+    height: 27px;
+}
+
+.colors button:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.colors .white-color {
+    background: white !important;
+    border: 2px solid black !important;
+}
+
+.colors .black-color {
+    background: black !important;
+    border: 2px solid white !important;
+}
+
+.colors .red-color {
+    border: 2px solid white !important;
+    background: red !important;
+}
+
+@media only screen and (max-width: 700px) {
+    .colors {
+        position: fixed;
+        top: 10%;
+        left: -7%;
+    }
+
+    .colors button {
+        border-radius: 7px;
+        padding: 5px 7px;
+        outline: none;
+        border: none;
+        width: 30px;
+        height: 25px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .colors {
+        position: fixed;
+        top: 5%;
+        left: -10%;
+        padding-right: 5px;
+    }
+
+    .colors button {
+        border-radius: 7px;
+        padding: 5px 7px;
+        outline: none;
+        border: none;
+        width: 23px;
+        height: 17px;
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    .colors {
+        position: fixed;
+        top: 10%;
+        left: -17%;
+        padding-right: 5px;
+    }
+
+    .colors button {
+        border-radius: 7px;
+        padding: 5px 7px;
+        outline: none;
+        border: none;
+        width: 20px;
+        height: 15px;
+    }
+}
