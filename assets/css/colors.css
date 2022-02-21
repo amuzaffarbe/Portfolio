@@ -205,7 +205,7 @@
         position: fixed;
         top: 5%;
         left: -10%;
-        padding-right: 5px;
+        padding-right: 8px;
     }
 
     .colors button {
@@ -213,17 +213,18 @@
         padding: 5px 7px;
         outline: none;
         border: none;
-        width: 23px;
-        height: 20px;
+        width: 19px;
+        border-radius: 5px;
+        height: 17px;
     }
 }
 
 @media only screen and (max-width: 310px) {
     .colors {
         position: fixed;
-        top: 10%;
+        top: 6%;
         left: -17%;
-        padding-right: 5px;
+        padding-right: 8px;
     }
 
     .colors button {
@@ -231,7 +232,8 @@
         padding: 5px 7px;
         outline: none;
         border: none;
-        width: 20px;
+        border-radius: 4px;
+        width: 15px;
         height: 15px;
     }
 }
