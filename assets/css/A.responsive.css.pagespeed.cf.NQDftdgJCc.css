@@ -126,6 +126,20 @@
     h3.detail-title {
         font-size: 30px;
     }
+
+    .contact-text {
+        padding: 20px;
+    }
+
+    .contact-text h1 {
+        line-height: 40px;
+        font-size: 23px;
+        word-wrap:break-word;
+    }
+
+    .contact-send {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 575.98px) and (max-width: 767.98px) {
@@ -208,6 +222,14 @@
     }
     .next-project h3 {
         font-size: 40px;
+    }
+
+    .contact-text {
+        padding: 20px;
+    }
+
+    .contact-text h1 {
+        font-size: 35px;
     }
 }
 

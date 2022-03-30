@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Permanent+Marker&display=swap');
+
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
@@ -140,6 +143,10 @@
     font-weight: 900;
     src: url(../fonts/poppins/poppins-v5-latin-900italic.eot);
     src: local("Poppins Black Italic"), local("Poppins-BlackItalic"), url(../fonts/poppins/poppins-v5-latin-900italic.eot?#iefix) format("embedded-opentype"), url(../fonts/poppins/poppins-v5-latin-900italic.woff2) format("woff2"), url(../fonts/poppins/poppins-v5-latin-900italic.woff) format("woff"), url(../fonts/poppins/poppins-v5-latin-900italic.ttf) format("truetype"), url(../fonts/poppins/poppins-v5-latin-900italic.svg#Poppins) format("svg")
+}
+
+* {
+    outline: none !important;
 }
 
 h1,
@@ -1308,6 +1315,64 @@ h3.detail-title {
     width: 55vw;
     left: 25%;
     top: 21vh
+}
+
+.contact-text {
+    margin-top: -100px;
+    margin-bottom: 200px;
+    padding-left: 140px;
+}
+
+.contact-text h1{
+    color: white;
+    line-height: 59px;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 3px;
+}
+
+.contact-input {
+    padding-left: 2px;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    width: 240px;
+    font-size: 40px;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.contact-input:focus {
+    background: rgba(204, 204, 204, 0.238);
+    transition: all 0.5s ease;
+}
+
+.con-sav {
+    text-transform: none;
+    width: 80%;
+}
+
+.simple {
+    text-transform: none;
+}
+
+.contact-send {
+    border: 1px solid black;
+    padding: 8px 20px;
+    background: #ccd;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 50px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    outline: none;
+}
+
+.contact-send:hover {
+    /* letter-spacing: 3.5px; */
+    text-decoration: underline;
+    transition: all 0.8s ease;
 }
 
 .tictactoe {

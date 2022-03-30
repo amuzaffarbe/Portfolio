@@ -7,19 +7,64 @@ let redColor = document.querySelector(".red-color")
 color.classList.add(localStorage.getItem("color"))
 
 
-blackColor.addEventListener("click", function(){
+blackColor.addEventListener("click", function () {
     color.classList.remove(localStorage.getItem("color"))
     localStorage.removeItem("color")
 })
 
-whiteColor.addEventListener("click", function(){
+whiteColor.addEventListener("click", function () {
     color.classList.remove(localStorage.getItem("color"))
     localStorage.setItem("color", "white")
     color.classList.add(localStorage.getItem("color"))
 })
 
-redColor.addEventListener("click", function(){
+redColor.addEventListener("click", function () {
     color.classList.remove(localStorage.getItem("color"))
     localStorage.setItem("color", "red")
     color.classList.add(localStorage.getItem("color"))
 })
+
+// Contact page
+
+let names = document.querySelector(".ism-c")
+let telefon = document.querySelector(".telefon-c")
+let savol = document.querySelector(".savol-c")
+let telegram = document.querySelector(".telegram-c")
+let sendBtn = document.querySelector(".contact-send")
+
+
+sendBtn.addEventListener("click", () => {
+    if (names.value == "" && telefon.value == "" && savol.value == "" && telegram.value == "") {
+        return;
+    } else {
+       
+        var my_text = `Yangi Feedback :%0A%0AIsmi - ${names.value}, %0A%0ASizga yuborgan matni - %0A${savol.value}, %0A%0ATelefon raqami - ${telefon.value}, %0A%0ATelegrami - ${telegram.value}`
+
+        var token = "5252628125:AAFtsmD2VCHGGcq-J-7UB9sZ12q18LMm4U0";
+        var chat_id = -1001682797143;
+        var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${my_text}`
+
+        let api = new XMLHttpRequest();
+        api.open("GET", url, true);
+        api.send();
+        alert("Malumotlar Muzaffarbekga yuborildi ✅")
+        window.location.reload()
+    }
+})
+
+
+var button = document.querySelector(".button");
+
+
+
+button.addEventListener("click", function (e) {
+    var ism = document.querySelector(".name").value,
+        surname = document.querySelector(".surname").value,
+        phone = document.querySelector(".phone").value,
+        course = document.querySelector(".course").value;
+
+
+
+    // alert("connected")
+})
+

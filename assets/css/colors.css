@@ -4,7 +4,7 @@
     background: white;
 }
 
-.white * :not(.logo, .magnetic, .logo-s, .logo-foot, .tictactoe, .todoist, .icecream) {
+.white * :not(.logo, .magnetic, .logo-s, .logo-foot, .tictactoe, .todoist, .icecream, .contact-send) {
     background: white !important;
     color: black !important;
 }
@@ -69,6 +69,17 @@
 .white .download-cv, .white .download-cv .arrow {
     background: #000 !important;
     color: white !important;
+}
+
+.white .download-cv a {
+    background: none !important;
+    color: white !important;
+}
+
+.white .download-cv:hover a {
+    background: white !important;
+    color: black !important;
+    transition: all 1.5s ease;
 }
 
 .white .download-cv:hover {
@@ -205,7 +216,7 @@
         position: fixed;
         top: 5%;
         left: -10%;
-        padding-right: 8px;
+        padding-right: 5px;
     }
 
     .colors button {
@@ -213,8 +224,7 @@
         padding: 5px 7px;
         outline: none;
         border: none;
-        width: 19px;
-        border-radius: 5px;
+        width: 23px;
         height: 17px;
     }
 }
@@ -222,9 +232,9 @@
 @media only screen and (max-width: 310px) {
     .colors {
         position: fixed;
-        top: 6%;
+        top: 10%;
         left: -17%;
-        padding-right: 8px;
+        padding-right: 5px;
     }
 
     .colors button {
@@ -232,8 +242,7 @@
         padding: 5px 7px;
         outline: none;
         border: none;
-        border-radius: 4px;
-        width: 15px;
+        width: 20px;
         height: 15px;
     }
 }

@@ -1213,7 +1213,6 @@ h1.title {
 .about-right .download-cv {
   background: none;
   border: 1px solid #dddddd;
-  color: #ccc;
   border-radius: 30px;
   padding: 8px 32px;
   letter-spacing: 1px;
@@ -1225,6 +1224,10 @@ h1.title {
   margin-top: 30px;
   cursor: none;
   outline: none;
+}
+
+.about-right .download-cv a {
+  color: #ccc;
 }
 
 .about-right .download-cv .arrow {
@@ -1250,6 +1253,16 @@ h1.title {
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
   color: #000;
+}
+
+.profile {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: 1px solid rgba(204, 204, 204, 0.055);
+  -webkit-box-shadow: 10px 10px red, -2em 10px 1.4em olive;
+          box-shadow: 10px 10px red, -2em 10px 1.4em olive;
 }
 
 .love {
@@ -1453,7 +1466,8 @@ h1.title {
     mix-blend-mode: difference;
     z-index: 99 !important;
   }
-  .about-right, .about-left {
+  .about-right,
+  .about-left {
     width: 90%;
     padding-left: 10px;
   }
@@ -1627,6 +1641,10 @@ h1.title {
 
 .workflow-right-content:not(:last-child) {
   margin-bottom: -50px;
+}
+
+.contact-text h1 {
+  color: white !important;
 }
 
 .simple-text {

@@ -87,9 +87,11 @@
                                             </li>
                                             <li>
                                                 <p>04</p><a class="menu-link hover-target load-spiral"
-                                                    href="blog.html">Blog</a>
+                                                    href="blog.html">Story</a>
                                             </li>
-
+                                            <li>
+                                                <p>05</p><a class="menu-link hover-target load-spiral" href="contact.html">Contact</a>
+                                            </li>
                                         </ul>
                                     </div>
 
@@ -98,7 +100,7 @@
                                 <div class="col-md-4 offset-md-2 centered text-right">
                                     <div class="address-menu">
 
-                                        <h3 class="letter-a">Genrofer Front End <span class="letters">Developer</span>
+                                        <h3 class="letter-a">Genrofer <br> Front End <span class="letters">Developer</span>
                                         </h3>
                                         <h4>Tashkent, Uzbekistan</h4>
                                     </div>
@@ -148,7 +150,7 @@
             <div class="row d-flex">
 
                 <div class="about-left">
-                    <img src="./assets/img/about.jpg" alt="me">
+                    <img class="profile" src="./assets/img/profile.png" alt="me">
                     <p class="supposed">that’s where something was supposed to be...</p>
                 </div>
 
@@ -163,20 +165,20 @@
                         <br>
                         I'm Junior Front-End developer with around 6 months of experience. Almost I professionally use <span class="code">JavaScript, React, Redux CSS / SASS, Bootstrap</span> for creating websites and web applications. 
                         <br><br>
-                        I was born in Samarkand region which is located in Uzbekistan Republic. You can see here my <a href="story.html" class="story">story</a>.
+                        I was born in Samarkand region which is located in Uzbekistan Republic. You can see here my <a href="blog.html" class="story">story</a>.
                         <br>
-                        For the time being, I am a 11th grade pupil at school and its located in <a href="https://samarkand.uz" target="_blank" class="story">Samarkand</a> <a href="https://urgut.uz" target="_blank" class="story">Urgut</a>.
+                        For the time being, I am a 11th grade pupil at school in <a href="https://samarkand.uz" target="_blank" class="story">Samarkand</a>.
                         <br> <br>
-                        I'm interested in many profession. Such as <span class="code">Trading</span> <span class="code">Forex</span> <span class="code">Game_Development</span> <span class="code">Business</span> <span class="code">Video Editing</span> <span class="code">Photo Editing</span> and I have a lot of information about these.
+                        I'm interested in many profession. Such as <span class="code">Trading</span> <span class="code">Forex</span> <span class="code">Crypto</span> <span class="code">Game_Development</span> <span class="code">Video Editing</span> <span class="code">Photo Editing</span> and I have a lot of information about these.
                         <br>
-                        My nationality is uzbek and I am only 17 years old.🙂
+                        My nationality is uzbek and I am only <span id="my-age"></span> years old.🙂
                     </p>
                     </p>
                     <span class="passion">&#10084; Passion</span>
                     <div class="technologies">
                         #Technology #Creative #React #JavaScript #ES6 #Github #Finance&#128176;
                     </div>
-                    <button class="download-cv"> Download CV <div class="arrow">&#8594;</div></button>
+                    <button class="download-cv"><a href="./assets/resume/resume-PDF.pdf" target="_blank">Download CV</a><div class="arrow">&#8594;</div></button>
                 </div>
 
             </div>
@@ -410,7 +412,9 @@
         <a class="hover-target" href="index.html">Home</a>
         <a class="hover-target" href="work.html">Work</a>
         <a class="hover-target" href="about.html">About</a>
-        <a class="hover-target" href="blog.html">Blog</a>
+        <a class="hover-target" href="blog.html">Story</a>
+        <a class="hover-target" href="contact.html">Contact me</a>
+
     </div>
     <div class="menu__toggler hover-target magnetic"><span></span></div>
 
@@ -418,7 +422,11 @@
     <!-- Cursor -->
     <div class="cursor1" id="cursor1"></div>
     <div class="cursor" id="cursor"></div>
-
+    <script>
+        const age = document.getElementById("my-age")
+        const date = new Date().getFullYear()
+        age.textContent = Number(date - 2004)
+    </script>
     <script src="assets/js/plugin.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="./assets/js/colors.js"></script>

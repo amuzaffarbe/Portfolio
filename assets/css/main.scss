@@ -1260,7 +1260,6 @@ h1.title {
         .download-cv {
             background: none;
             border: 1px solid #dddddd;
-            color: #ccc;
             border-radius: 30px;
             padding: 8px 32px;
             letter-spacing: 1px;
@@ -1270,6 +1269,10 @@ h1.title {
             margin-top: 30px;
             cursor: none;
             outline: none;
+
+            a {
+                color: #ccc;
+            }
 
             .arrow {
                 margin-left: 5px;
@@ -1292,6 +1295,12 @@ h1.title {
             }
         }
     }
+}
+
+.profile {
+    user-select: none;
+    border: 1px solid rgba(204, 204, 204, 0.055);
+    box-shadow: 10px 10px red, -2em 10px 1.4em olive;
 }
 
 .love {
@@ -1481,7 +1490,6 @@ h1.title {
 }
 
 @media only screen and (max-width: 640px) {
-
     .logo {
         position: fixed;
         margin-top: 3vh;
@@ -1491,7 +1499,8 @@ h1.title {
         z-index: 99 !important;
     }
 
-    .about-right, .about-left {
+    .about-right,
+    .about-left {
         width: 90%;
         padding-left: 10px;
     }
@@ -1516,19 +1525,18 @@ h1.title {
     }
 
     .skills {
-            padding: 0 50px;
-            padding-right: 70px;
+        padding: 0 50px;
+        padding-right: 70px;
 
-            &-heading {
-                margin-left: 50px !important;
-                font-size: 50px;
-            }
+        &-heading {
+            margin-left: 50px !important;
+            font-size: 50px;
+        }
 
-            .see-full {
-                margin-left: -100px;
-                font-weight: normal;
-
-            }
+        .see-full {
+            margin-left: -100px;
+            font-weight: normal;
+        }
     }
 
     .workflow {
@@ -1541,7 +1549,6 @@ h1.title {
 
         &-right {
             &-content {
-
                 img {
                     width: 400px;
                 }
@@ -1549,7 +1556,6 @@ h1.title {
         }
 
         &-left {
-            
             .content {
                 p {
                     width: 300px;
@@ -1661,6 +1667,10 @@ h1.title {
             margin-bottom: -50px;
         }
     }
+}
+
+.contact-text h1 {
+    color: white !important;
 }
 
 .simple-text {
