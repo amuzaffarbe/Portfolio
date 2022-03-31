@@ -140,6 +140,15 @@
     .contact-send {
         font-size: 20px;
     }
+
+    .contact-input {
+        width: 150px;
+        font-size: 20px;
+    }
+
+    .con-sav {
+        width: 100%;
+    }
 }
 
 @media (min-width: 575.98px) and (max-width: 767.98px) {
@@ -230,6 +239,15 @@
 
     .contact-text h1 {
         font-size: 35px;
+    }
+
+    .contact-input {
+        width: 240px;
+        font-size: 40px;
+    }
+
+    .con-sav {
+        width: 100%;
     }
 }
 
