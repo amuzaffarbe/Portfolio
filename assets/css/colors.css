@@ -18,6 +18,11 @@
     padding: 10px !important;
 }
 
+.white .contact-text input:focus {
+    background: rgba(0, 0, 0, 0.734) !important;
+    color: white !important;
+}
+
 .white .code, .white .story, .white .love {
     background: #000 !important;
     color: white !important;

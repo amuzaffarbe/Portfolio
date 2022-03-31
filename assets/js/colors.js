@@ -51,20 +51,3 @@ sendBtn.addEventListener("click", () => {
         window.location.reload()
     }
 })
-
-
-var button = document.querySelector(".button");
-
-
-
-button.addEventListener("click", function (e) {
-    var ism = document.querySelector(".name").value,
-        surname = document.querySelector(".surname").value,
-        phone = document.querySelector(".phone").value,
-        course = document.querySelector(".course").value;
-
-
-
-    // alert("connected")
-})
-
