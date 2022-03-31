@@ -1456,6 +1456,7 @@ h3.detail-title {
     margin-top: 50px;
     letter-spacing: 3px;
     font-weight: 700;
+    cursor: pointer;
     outline: none;
 }
 
