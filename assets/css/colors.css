@@ -4,7 +4,7 @@
     background: white;
 }
 
-.white * :not(.logo, .magnetic, .logo-s, .logo-foot, .tictactoe, .todoist, .icecream, .contact-send) {
+.white * :not(.logo, .magnetic, .logo-s, .logo-foot, .tictactoe, .todoist, .icecream, .contact-send, .toast, .check, .toast-text) {
     background: white !important;
     color: black !important;
 }
@@ -54,7 +54,7 @@
 }
 
 .white .colors {
-    border-right: 3px solid red !important;
+    border-right: 3px solid black !important;
 }
 
 .white .magnetic {
@@ -103,67 +103,19 @@
 }
 
 
-/* Red box ------------------------------------ */
-
-.red {
-    background: red;
-}
-
-.red * :not(.logo, .magnetic, .logo-s, .logo-foot, .supposed, .inner, .love, .code, .story, .tictactoe, .todoist, .icecream) {
-    background: red !important;
-    color: black;
-}
-
-.red .list-social ul, .red .socials{
-    background: transparent !important;
-}
-
-.red .text-1,
-.text-2 {
-    background: rgba(0, 0, 0, 0.233) !important;
-}
-
-.red .img-fluid {
-    border: 1px solid black;
-    -webkit-filter: none !important;
-    filter: none !important;
-}
-
-.red .gmail {
-    color: black !important;
-}
-
-.red .activez a {
-    background: none !important;
-}
-
-.red .magnetic span::before,
-.red .magnetic span::after {
-    background: black !important;
-}
-
-.red .burger-menu {
-    background: none !important;
-}
-
-.workflow-right-content .center, .workflow-right-content .center img, .workflow-right-content .center p {
-    background: none !important;
-}
-
-
 /* Colors ---------------------------------- */
 
 .colors {
     position: fixed;
     top: 15%;
     left: -2%;
-    padding: 8px 5px;
+    padding: 15px 5px;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
     justify-content: space-between;
     border-right: 3px solid white;
-    padding-right: 10px;
+    padding-right: 9px;
 }
 
 .colors button:focus {
@@ -192,11 +144,6 @@
 .colors .black-color {
     background: black !important;
     border: 2px solid white !important;
-}
-
-.colors .red-color {
-    border: 2px solid white !important;
-    background: red !important;
 }
 
 @media only screen and (max-width: 700px) {
