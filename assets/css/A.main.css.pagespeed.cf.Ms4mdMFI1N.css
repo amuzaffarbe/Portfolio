@@ -1575,6 +1575,45 @@ h3.detail-title {
     background: red !important;
 }
 
+
+@media (max-width: 575.98px) {
+    .toast {
+        padding: 10px;
+        font-size: 5px;
+    }
+
+    .message .toast-text{
+        font-size: 10px;
+        font-weight: 400;;
+        border-radius: 1px solid black;
+        color: #666666;
+    }
+
+    .toast .close{
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        padding: 5px;
+        font-size: 10px;
+        cursor: pointer;
+        opacity: 0.7;
+    }
+
+    .toast-content .check{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20px;
+        width: 20px;
+        background-color: #4070f4;
+        color: #fff;
+        font-size: 10px;
+        border-radius: 50%;
+    }
+}
+
+
+
 .telefon-c::-webkit-outer-spin-button,
 .telefon-c::-webkit-inner-spin-button {
   -webkit-appearance: none;
