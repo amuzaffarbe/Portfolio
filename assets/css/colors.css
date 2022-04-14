@@ -4,7 +4,7 @@
     background: white;
 }
 
-.white * :not(.logo, .magnetic, .logo-s, .logo-foot, .tictactoe, .todoist, .icecream, .contact-send, .toast, .check, .toast-text) {
+.white * :not(.logo, .magnetic, .logo-s, .logo-foot, .tictactoe, .todoist, .icecream, .contact-send, .toast, .check, .toast-text, .fa-brands, .fa-solid) {
     background: white !important;
     color: black !important;
 }
