@@ -1378,8 +1378,12 @@ h1.title {
   color: #7910f2;
 }
 
-.skills-right h1 .wordpress {
-  color: #006e92;
+.skills-right h1 .nodejs {
+  color: #3B7F3A;
+}
+
+.skills-right h1 .sql {
+  color: #e0e000;
 }
 
 .skills-right h1 .robot {
