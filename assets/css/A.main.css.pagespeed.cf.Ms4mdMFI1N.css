@@ -1621,22 +1621,22 @@ h3.detail-title {
 }
 
 .tictactoe {
-    background: url(../img/detail-work/TicTacToe.png) center no-repeat !important;
+    background: none !important;
     background-size: contain !important;
 }
 
 .rgbcolor {
-    background: url(../img/detail-work/rgb_color.png) center no-repeat !important;
+    background: none !important;
     background-size: contain !important;
 }
 
 .todoist {
-    background: url(../img/detail-work/todoist.png) center no-repeat !important;
+    background: none !important;
     background-size: contain !important;
 }
 
 .icecream {
-    background: url(../img/detail-work/icecream.png) center no-repeat !important;
+    background: none !important;
     background-size: contain !important;
 }
 

@@ -1947,7 +1947,6 @@ h1.title {
 }
 
 .bg-detail-blog {
-    background: url("../img/blog/detail.jpg") center no-repeat;
     background-size: cover;
     z-index: -1;
     position: absolute;
@@ -2011,7 +2010,6 @@ h3.detail-title {
 =====================================================*/
 
 .bg-work {
-    background: url("../img/port/1.jpg") center no-repeat;
     z-index: 3;
     position: fixed;
     text-align: center;
@@ -2022,7 +2020,6 @@ h3.detail-title {
 }
 
 .bg-work-2 {
-    background: url("../img/port/3.jpg") center no-repeat;
     z-index: 3;
     position: fixed;
     text-align: center;
@@ -2039,7 +2036,6 @@ h3.detail-title {
 =====================================================*/
 
 .bg-detail-work {
-    background: url("../img/detail-work/1/1.jpg") center no-repeat;
     background-size: cover;
     z-index: -1;
     position: fixed;
@@ -2051,7 +2047,6 @@ h3.detail-title {
 }
 
 .bg-detail-work-2 {
-    background: url("../img/detail-work/2/3.jpg") center no-repeat;
     background-size: cover;
     z-index: -1;
     position: fixed;
@@ -2448,4 +2443,6 @@ h3.glp {
 h3.lght {
     color: #000;
 }
+
+// button
 

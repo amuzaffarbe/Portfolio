@@ -4,16 +4,37 @@
     background: white;
 }
 
-.white * :not(.logo, .magnetic, .logo-s, .logo-foot, .tictactoe, .todoist, .icecream, .contact-send, .toast, .check, .toast-text, .fa-brands, .fa-solid) {
+.white
+    *
+    :not(.logo, .magnetic, .logo-s, .logo-foot, .tictactoe, .todoist, .icecream, .contact-send, .toast, .check, .toast-text, .fa-brands, .fa-solid, .logo-spiral) {
     background: white !important;
     color: black !important;
 }
 
-.workflow-right-content .center, .workflow-right-content .center img, .workflow-right-content .center p {
+.workflow-right-content .center,
+.workflow-right-content .center img,
+.workflow-right-content .center p {
     background: none !important;
 }
 
-.white .skills-left img, .white .skills-right img  {
+.white .heading-text-front,
+.white .heading-text,
+.white .title {
+    background: none !important;
+}
+
+.white .btn-12 span {
+    color: #000;
+    border: 2px solid #000;
+}
+
+.white .btn-15   {
+    color: #000;
+    border: 2px solid #000;
+}
+
+.white .skills-left img,
+.white .skills-right img {
     background: #000 !important;
     padding: 10px !important;
 }
@@ -23,7 +44,9 @@
     color: white !important;
 }
 
-.white .code, .white .story, .white .love {
+.white .code,
+.white .story,
+.white .love {
     background: #000 !important;
     color: white !important;
 }
@@ -70,8 +93,8 @@
     background: none !important;
 }
 
-
-.white .download-cv, .white .download-cv .arrow {
+.white .download-cv,
+.white .download-cv .arrow {
     background: #000 !important;
     color: white !important;
 }
@@ -93,7 +116,7 @@
     border: 1px solid black;
 }
 
-.white .download-cv:hover >.arrow {
+.white .download-cv:hover > .arrow {
     background: white !important;
     color: black !important;
 }
@@ -101,7 +124,6 @@
 .white .download-cv .arrow {
     padding: -50px !important;
 }
-
 
 /* Colors ---------------------------------- */
 
