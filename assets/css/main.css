@@ -1247,6 +1247,13 @@ h1.title {
   color: #050505;
 }
 
+.about-right .download-cv:hover a {
+  letter-spacing: 1.2px;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  color: #050505;
+}
+
 .about-right .download-cv:hover > .arrow {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);

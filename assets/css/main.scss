@@ -1288,6 +1288,12 @@ h1.title {
                 transition: all 0.8s ease;
                 color: #050505;
             }
+
+            &:hover a{
+                letter-spacing: 1.2px;
+                transition: all 0.8s ease;
+                color: #050505;
+            }
             &:hover > .arrow {
                 transform: rotate(0deg);
                 transition: all 0.8s ease;
