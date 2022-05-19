@@ -1,13 +1,13 @@
 /* White box ------------------------------------ */
 
 .white {
-    background: white;
+    background: rgb(234, 234, 234);
 }
 
 .white
     *
     :not(.logo, .magnetic, .logo-s, .logo-foot, .tictactoe, .todoist, .icecream, .contact-send, .toast, .check, .toast-text, .fa-brands, .fa-solid, .logo-spiral) {
-    background: white !important;
+    background: rgb(234, 234, 234) !important;
     color: black !important;
 }
 
@@ -123,6 +123,10 @@
 
 .white .download-cv .arrow {
     padding: -50px !important;
+}
+
+.white .see-full {
+    border: 2px solid black;
 }
 
 /* Colors ---------------------------------- */

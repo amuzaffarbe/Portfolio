@@ -2037,3 +2037,7 @@ h3.glp {
 h3.lght {
     color: #000;
 }
+
+.paddingTop {
+    padding-top: 70px !important;
+}
