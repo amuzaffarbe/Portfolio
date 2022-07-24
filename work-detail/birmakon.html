@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./../assets/css/colors.css">
+    <title>Works - Birmakon</title>
+    <style>
+        .frame {
+            width: 90%;
+            margin: 40px auto;
+            text-align: center;
+        }
+
+        button {
+            outline: none;
+        }
+
+        .custom-btn {
+            width: 130px;
+            height: 40px;
+            padding: 10px 25px;
+            border: 2px solid #000;
+            font-family: 'Lato', sans-serif;
+            font-weight: 500;
+            background: transparent;
+            cursor: pointer;
+            font-size: 35px;
+            transition: all 0.3s ease;
+            position: relative;
+            display: inline-block;
+        }
+
+        /* 12 */
+        .btn-12 {
+            position: relative;
+            right: 70px;
+            bottom: 20px;
+            border: none;
+            width: 130px;
+            height: 40px;
+            line-height: 40px;
+            -webkit-perspective: 230px;
+            perspective: 230px;
+        }
+
+        .btn-12 span {
+            color: white;
+            letter-spacing: 1px;
+            display: block;
+            position: absolute;
+            width: 200px;
+            height: 47px;
+            border: 2px solid #fff;
+            margin: 0;
+            text-align: center;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-transition: all .3s;
+            transition: all .3s;
+        }
+
+        .btn-12 span:nth-child(1) {
+            box-shadow:
+                -7px -7px 20px 0px #fff9,
+                -4px -4px 5px 0px #fff9,
+                7px 7px 20px 0px #0002,
+                4px 4px 5px 0px #0001;
+            -webkit-transform: rotateX(90deg);
+            -moz-transform: rotateX(90deg);
+            transform: rotateX(90deg);
+            -webkit-transform-origin: 50% 50% -20px;
+            -moz-transform-origin: 50% 50% -20px;
+            transform-origin: 50% 50% -20px;
+        }
+
+        .btn-12 span:nth-child(2) {
+            -webkit-transform: rotateX(0deg);
+            -moz-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+            -webkit-transform-origin: 50% 50% -20px;
+            -moz-transform-origin: 50% 50% -20px;
+            transform-origin: 50% 50% -20px;
+        }
+
+        .btn-12:hover span:nth-child(1) {
+            -webkit-transform: rotateX(0deg);
+            -moz-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+        }
+
+        .btn-12:hover span:nth-child(2) {
+            background: #e0e5ec;
+            color: #e0e5ec;
+            -webkit-transform: rotateX(-90deg);
+            -moz-transform: rotateX(-90deg);
+            transform: rotateX(-90deg);
+        }
+
+        /* 15 */
+        .btn-15 {
+            background: #000;
+            color: #fff;
+            font-size: 15px;
+            position: absolute;
+            right: -2%;
+            border: 1px solid white;
+            z-index: 1;
+        }
+
+        .btn-15:after {
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 100%;
+            top: 0;
+            right: 0;
+            z-index: -1;
+            background: #e0e5ec;
+            transition: all 0.3s ease;
+        }
+
+        .btn-15:hover {
+            color: #000;
+        }
+
+        .btn-15:hover:after {
+            left: 0;
+            width: 100%;
+        }
+
+        .btn-15:active {
+            top: 2px;
+        }
+    </style>
+</head>
+
+<body class="color">
+
+    <!-- Start Preload -->
+    <div class="preloader">
+    </div>
+    <div class="block-1"></div>
+    <div class="block-2"></div>
+    <div class="logo-load">
+        <img src="./../assets/img/logo.svg" alt="">
+    </div>
+    <div class="logo-load spinning"></div>
+    <div class="over-all"></div>
+    <!-- End Preload -->
+
+
+    <!-- Start Header -->
+    <header>
+        <nav>
+            <!-- Logo -->
+            <div class="logo hover-target">
+                <a class="load-spiral logo-spiral" href="./../index.html"><img class="logo-s mt-3" src="./../assets/img/logo.png"
+                        alt="logo"></a>
+            </div>
+            <!-- Menu bar -->
+            <div class="toggle-btn magnetic hover-target">
+                <div class="burger-menu">
+                    <span class="one"></span>
+                    <span class="two"></span>
+                    <span class="tre"></span>
+                </div>
+            </div>
+            <!-- Social -->
+            <div class="scr socials">
+                <div class="list-social">
+                    <ul>
+                        <li class="hover-target"><a href="https://www.linkedin.com/in/amuzaffarbe/"
+                                target="_blank">Ln.</a></li>
+                        <li class="hover-target"><a href="https://www.twitter.com/amuzaffarbe/" target="_blank">Tw.</a>
+                        </li>
+                        <li class="hover-target"><a href="https://www.instagram.com/muzaffar_abdusamadov/"
+                                target="_blank">Ig.</a></li>
+                        <li class="hover-target"><a href="https://telegram.me/genrofer" target="_blank">Tg.</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="scr copyright-top">
+                <p>Genrofer &copy; 2022</p>
+            </div>
+
+            <div class="bg-nav"></div>
+
+            <!-- menu -->
+            <div class="manu-container">
+                <div class="menu">
+                    <div class="data">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="links text-center text-lg-left">
+                                        <ul>
+                                            <li>
+                                                <p>01</p><a class="menu-link hover-target load-spiral"
+                                                    href="./../index.html">Home</a>
+                                            </li>
+                                            <li>
+                                                <p>02</p><a class="menu-link hover-target load-spiral"
+                                                    href="./../work.html">Work</a>
+                                            </li>
+                                            <li>
+                                                <p>03</p><a class="menu-link hover-target load-spiral"
+                                                    href="./../about.html">About</a>
+                                            </li>
+                                            <li>
+                                                <p>04</p><a class="menu-link hover-target lo ad-spiral"
+                                                    href="./../blog.html">Blog</a>
+                                            </li>
+                                            <li>
+                                                <p>05</p><a class="menu-link hover-target load-spiral"
+                                                    href="./../contact.html">Contact</a>
+                                            </li>
+                                        </ul> 
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4 offset-md-2 centered text-right">
+                                    <div class="address-menu">
+
+                                        <h3 class="letter-a">Genrofer <br> Full Stack <span class="letters">Developer</span>
+                                        </h3>
+                                        <h4>Tashkent, Uzbekistan</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+    <!-- End Header -->
+
+
+    <!-- Start Content -->
+    <div id="spiral">
+
+        <!-- Header -->
+        <div class="scrolls">
+            <img draggable="false" src="./../assets/img/sroll.svg" alt="scroll">
+        </div>
+        <div class="main-head luxy-el" data-speed-y="15" data-offset="0">
+            <div id="headmove">
+                <div data-depth="0.4">
+                    <div class="bg-detail-work tictactoe"></div>
+                </div>
+            </div>
+
+            <div class="heading-text">
+                <div class="heading-text-front">
+                    <h1 class="title">BIRMAKON</h1>
+                </div>
+                <div class="heading-text-back">
+                    <h1 class="title">BIRMAKON</h1>
+                </div>
+            </div>
+        </div>
+
+        <section class="detail-work bg-darks">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-4 mt-30">
+                        <div class="about-work text-center">
+                            <h3>Client</h3>
+                            <p>Birmakon.uz</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-30">
+                        <div class="about-work text-center">
+                            <h3>Year</h3>
+                            <p>2022</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-30">
+                        <div class="about-work text-center">
+                            <h3>Service</h3>
+                            <p>Website</p>
+                            <p>Responsive</p>
+                            <p>Consulting</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row mt-30">
+                    <div class="col-md-6 mt-30">
+                        <div class="img-detail-work cursorZoom">
+                            <img class="cover img-fluid medium-zoom-image"
+                                src="./../assets/img/detail-work/birmakon-1.png" width="500px" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-30">
+                        <div class="img-detail-work cursorZoom">
+                            <img class="cover img-fluid medium-zoom-image"
+                                src="./../assets/img/detail-work/birmakon-2.png" width="500px" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row about-work mt-50">
+                    <div class="col-md-3">
+                        <h3>Detail</h3>
+                    </div>
+                    <div class="col-md-8">
+                        <p>This is consulting and services website<br>This is created with html sass javascript</p>
+                        <div class="mt-10"></div>
+                    </div>
+                </div>
+
+                <div class="row mt-20">
+                    <div class="col-md-12 mt-30">
+                        <div class="img-detail-work cursorZoom">
+                            <img class="cover img-fluid medium-zoom-image"
+                                src="./../assets/img/detail-work/birmakon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="" target="_blank"
+                            class="next-project centered text-center load-spiral">
+                            <div class="col-md-12 d-flex justify-content-center">
+                               <a href="#" class="" target="_blank">
+                                   <button class="custom-btn btn-12"><span>Click here</span><span>Full view</span></button>
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="./../work.html" target="_blank"
+                            class="next-project centered text-center load-spiral">
+                            <div class="col-md-12">
+                                <button class="custom-btn btn-15">⬅ Orqaga</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center text-md-left mt-30">
+                        <div class="mail hover-target">
+                            <a href="#">genrofer@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center mt-30">
+                        <div class="logo-foot">
+                            <img src="assets/img/logo.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center text-md-right mt-30">
+                        <div class="sosmed">
+                            <ul>
+                                <li class="hover-target"><a href="https://www.linkedin.com/in/amuzaffarbe/"
+                                        target="_blank">Linkedin.</a></li>
+                                <li class="hover-target"><a href="https://www.twitter.com/amuzaffarbe/"
+                                        target="_blank">Twitter.</a></li>
+                                <li class="hover-target"><a href="https://www.instagram.com/muzaffar_abdusamadov/"
+                                        target="_blank">Instagram.</a></li>
+                                <li class="hover-target"><a href="https://telegram.me/genrofer"
+                                        target="_blank">Telegram.</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="copyright">
+                            <p>Genrofer &copy;2022. All Rights Reserved</p>
+                            <p>Made with <> by Muzaffarbek.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Content -->
+
+    <!-- Color menu -->
+    <div class="colors m-5">
+        <button class="black-color"></button>
+        <button class="white-color"></button>
+    </div>
+
+    <!-- Toggle menu -->
+    <div class="menus">
+        <a class="hover-target" href="../index.html">Home</a>
+        <a class="hover-target" href="../work.html">Work</a>
+        <a class="hover-target" href="../about.html">About</a>
+        <a class="hover-target" href="../blog.html">Blog</a>
+    </div>
+    <div class="menu__toggler hover-target magnetic"><span></span></div>
+
+    <!-- Cursor -->
+    <div class="cursor1" id="cursor1"></div>
+    <div class="cursor" id="cursor"></div>
+
+    <script src="./../assets/js/plugin.js"></script>
+    <script src="./../assets/js/main.js"></script>
+    <noscript class="psa_add_styles">
+        <link rel="stylesheet" href="./../assets/css/A.plugin.css.pagespeed.cf.Bm4HW5SySe.css">
+        <link rel="stylesheet" href="./../assets/css/A.main.css.pagespeed.cf.Ms4mdMFI1N.css">
+        <link rel="stylesheet" href="./../assets/css/A.responsive.css.pagespeed.cf.NQDftdgJCc.css">
+    </noscript>
+    <script data-pagespeed-no-defer>(function () {
+            function b() { var a = window, c = e; if (a.addEventListener) a.addEventListener("load", c, !1); else if (a.attachEvent) a.attachEvent("onload", c); else { var d = a.onload; a.onload = function () { c.call(this); d && d.call(this) } } }; var f = !1; function e() {
+                if (!f) {
+                    f = !0; for (var
+                        a = document.getElementsByClassName("psa_add_styles"), c = 0, d; d = a[c]; ++c)if ("NOSCRIPT" == d.nodeName) { var k = document.createElement("div"); k.innerHTML = d.textContent; document.body.appendChild(k) }
+                }
+            } function g() { var a = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || null; a ? a(function () { window.setTimeout(e, 0) }) : b() }
+            var h = ["pagespeed", "CriticalCssLoader", "Run"], l = this; h[0] in l || !l.execScript || l.execScript("var " + h[0]); for (var m; h.length && (m = h.shift());)h.length || void 0 === g ? l[m] ? l = l[m] : l = l[m] = {} : l[m] = g;
+        })(); pagespeed.CriticalCssLoader.Run();
+    </script>
+    <script src="./../assets/js/colors.js"></script>
+</body>
+
+</html>
