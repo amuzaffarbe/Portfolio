@@ -48,7 +48,6 @@ sendBtn.addEventListener("click", () => {
         let api = new XMLHttpRequest();
         api.open("GET", url, true);
         api.send();
-        // alert("Malumotlar Muzaffarbekga yuborildi ✅")
 
         toast.classList.add("active");
         progress.classList.add("active");
